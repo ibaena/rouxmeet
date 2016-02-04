@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head><% include template/head.ejs %></head>
+<head><% include template/head.ejs %></head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <% include template/header.ejs %>
+    <!-- Navbar goes here -->
+<main>
+  <div class="container">
+    <div class="row">
+       <div class="col l8">
+         <h1 class="title">Title</h1>
+         <section>
+           Lorem ipsum dolor sit amet, eos ludus vituperatoribus at. Debitis molestiae signiferumque in has, tollit mentitum disputando an mel. Eum everti intellegebat cu, has eruditi denique erroribus an. An movet veniam repudiandae usu, ad alienum erroribus definitionem usu. Ex sit cotidieque definitionem.
+         </section>
+         <h1 class="title">Title</h1>
+         <section>
+           Lorem ipsum dolor sit amet, eos ludus vituperatoribus at. Debitis molestiae signiferumque in has, tollit mentitum disputando an mel. Eum everti intellegebat cu, has eruditi denique erroribus an. An movet veniam repudiandae usu, ad alienum erroribus definitionem usu. Ex sit cotidieque definitionem.
+         </section>
+       </div>
+       <div class="col l4">
+         <h1 class="title">Title</h1>
+         <section>
+           Lorem ipsum dolor sit amet, eos ludus vituperatoribus at. Debitis molestiae signiferumque in has, tollit mentitum disputando an mel. Eum everti intellegebat cu, has eruditi denique erroribus an. An movet veniam repudiandae usu, ad alienum erroribus definitionem usu. Ex sit cotidieque definitionem.
+         </section>
+       </div>
+     </div>
+  </div>
 
-    <% include template/script.ejs %>
+</main>
+
+  <% include template/footer.ejs %>
+  <% include template/script.ejs %>
   </body>
 </html>
